@@ -1,17 +1,14 @@
 import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import yoga from '../public/yoga.jpg';
+import dashboard from '../public/dashboard.jpg';
+import nike from '../public/nike.jpg';
+import restau from '../public/restau.jpg';
+import eshop from '../public/eshop.jpg';
+import airbnb from '../public/airbnb.jpg';
 
-import yoga from '@/public/Yoga.jpg';
-import dashboard from '@/public/dashboard.jpg';
-import nike from '@/public/nike.jpg';
-import restau from '@/public/restau.jpg';
-import eshop from '@/public/eshop.jpg';
-import airbnb from '@/public/airbnb.jpg';
-import crud from '@/public/crud.jpg';
-import store from '@/public/store.jpg';
-import phpecom from '@/public/phpecom.jpg';
+import store from '../public/store.jpg';
+import phpecom from '../public/phpecom.jpg';
 
 export const links = [
   {
