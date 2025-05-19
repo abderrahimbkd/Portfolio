@@ -25,14 +25,14 @@ export default function Project({ title, description, tags, imageUrl, UrlGit, Ur
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="group mb-3 sm:mb-8 last:mb-0">
+      className="group mb-3 sm:mb-8 last:mb-0 ">
       <section className=" bg-gray-100 max-w-[35rem] border border-black/5 rounded-lg overflow-hidden p-5 hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <Image src={imageUrl} alt="me" width={500} height={450} className="   rounded-lg " />
+        <Image src={imageUrl} alt="me" width={450} height={450} className="   rounded-lg mx-auto " />
 
-        <div className="mt-2">
+        <div className="mt-2 text-center">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">{description}</p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex justify-center items-center flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
@@ -41,7 +41,7 @@ export default function Project({ title, description, tags, imageUrl, UrlGit, Ur
               </li>
             ))}
           </ul>
-          <div className="flex gap-2  text-sm mt-3 font-medium">
+          <div className="flex gap-2  text-sm mt-3 font-medium justify-center items-center  ">
             <a
               className="group bg-gray-900 text-white p-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
               href={UrlGit}

@@ -20,7 +20,7 @@ export default function About() {
       <p className="mb-3">
         My name is <span className="font-medium">Boukad Abderrahim</span>.I am a <span className="italic">FullStack Developer </span> .I am always
         eager to expand my knowledge and Develop my skills.My passion for web Development drives me to constantly learn and grow. ensuring i stay
-        up-to-date with the latest technologies and trends.With meduim fondation in <span className="font-medium">Front-End</span> and{' '}
+        up-to-date with the latest technologies and trends.With strong fondation in <span className="font-medium">Front-End</span> and{' '}
         <span className="font-medium">Back-End</span> Development.I have experience working with frameworks such as{' '}
         <span className="underline font-medium">Reactjs,Nextjs,Laravel</span> .I am also familiar with{' '}
         <span className="underline font-medium">TypeScript and Prisma</span>. Some of the projects that I have worked on include a personal portfolio
